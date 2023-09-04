@@ -8,5 +8,3 @@ RUN \
   apt-get upgrade -yqq && \
   apt-get install -yqq nodejs && \
   pip install -U pip
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
