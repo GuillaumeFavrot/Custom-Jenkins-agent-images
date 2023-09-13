@@ -1,5 +1,5 @@
 # get the base image
-FROM python:bullseye
+FROM guthan/jenkins-agent:python11.5
 
 RUN \
   echo "deb https://deb.nodesource.com/node_20.x bullseye main" > /etc/apt/sources.list.d/nodesource.list && \
