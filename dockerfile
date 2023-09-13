@@ -1,4 +1,3 @@
-# get the base image
 FROM guthan/jenkins-agent:python11.5
 
 RUN \
